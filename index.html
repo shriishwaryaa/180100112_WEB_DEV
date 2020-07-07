@@ -1,121 +1,101 @@
 <!DOCTYPE html>
-
 <html lang="en" dir="ltr">
-
   <head>
 
     <meta charset="utf-8">
-
     <title>About Shri Ishwaryaa S V</title>
-
-    <style media="screen">
-      
-      @font-face {
-        font-family: Didot;
-        src: url(Didot.woff);
-      }
-
-      @font-face {
-        font-family: Didot;
-        src: url(Didot-Bold.woff);
-        font-weight: bold;
-      }
-
-      .wrap {
-        background-color: rgba(230, 230, 250, 0.5);
-        color: rgba(0, 0, 0, 1);
-        padding: 10px;
-      }
-
-      .full {
-        background-color: rgba(255, 255, 255, 0.6);
-        color: rgba(0, 0, 0, 1);
-        padding: 50px;
-        margin-top: 50px;
-        background-image: url('Me1.jpeg');
-        background-attachment: scroll;
-        background-repeat: no-repeat;
-        background-position: right top;
-        background-origin: content-box;
-        background-size: 300px 300px;
-      }
-
-      h1 {
-        text-align: center;
-        font-size: 500%;
-      }
-
-      body {
-        background-image: url('BackgroundPic.jpg');
-        background-attachment: fixed;
-        background-size: 100% 100%;
-        padding: 50px;
-        font-family: Didot;
-        font-size: 120%;
-      }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 
   </head>
 
-<!-- This is the beginning of the body -->
   <body>
 
-    <h1>
-      <!-- Display a welcome message -->
-      <span class="wrap">WELCOME</span>
-    </h1>
-
-    <div class="full">
-
-      <!-- Display name -->
-      <h2>Hi! I'm Shri Ishwaryaa S V</h2>
-
-      <!-- Display "Education" heading -->
-      <h3>Education :</h3>
-
-      <!-- Display education -->
-      <p>
-        Currently studying at The Indian Institute of Technology, Bombay. <br>
-        Studied at Suguna PIP School, Coimbatore. <br>
-        Studied at The Chennai Public School, Thirumazhisai. <br>
-        Studied at The Lawrence School, Lovedale.
-      </p>
-
-      <!-- Display "Degree" heading -->
-      <h3>Degree :</h3>
-
-      <!-- Display degree -->
-      <p>
-        Pursuing a Major degree in Mechanical Engineering and a Minor in Computer Science.
-      </p>
-
-      <!-- Display "Hobbies" heading -->
-      <h3>Hobbies :</h3>
-
-      <!-- Display hobbies -->
-      <p>
-        I enjoy listening to music and watching many different movies. <br>
-        I like to watch vidoes on YouTube and do small, feasible DIY projects. <br>
-        I also like to draw & paint.
-      </p>
-
-      <!-- Display "Ambitions" heading -->
-      <h3>Ambitions :</h3>
-
-      <!-- Display ambition -->
-      <p>
-        There are a lot of things that I wish to do. Among them is becoming a successful <b><i>entrepreneur</i></b> . <br>
-        In these recent years, I have developed the desire of having my own tech company. <br>
-      </p>
-
+    <div class="container">
+      <img src="BackgroundPic.jpg" alt="" style="width:100%; height:100%; background-color: rgb(50,50,50);">
+      <div class="centerText">WELCOME</div>
     </div>
 
-    <h3>
-      <a href="https://github.com/shriishwaryaa/180100112_WEB_DEV" style="color: rgb(251, 240, 220); padding: 50px;">* View the code for this page here!</a>
-    </h3>
+    <ul class="navBar">
+      <li><a href="#">About</a></li>
+      <li><a href="#">Skills</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+
+    <div class="row">
+      <div class="column1">
+        <img src="Me.jpeg" alt="">
+        <img src="Me1.jpeg" alt="">
+        <img src="Me2.jpeg" alt="">
+      </div>
+
+      <div class="column2">
+        <h2>Hi! I'm Shri Ishwaryaa S V</h2>
+        <div class="grid-container">
+          <div class="g1">Education</div>
+          <div class="g2">
+            Currently studying at The Indian Institute of Technology, Bombay. <br>
+            Studied at Suguna PIP School, Coimbatore. <br>
+            Studied at The Chennai Public School, Thirumazhisai. <br>
+            Studied at The Lawrence School, Lovedale. <br>
+          </div>
+          <div class="g3">Degree</div>
+          <div class="g4">
+            Pursuing a Major degree in Mechanical Engineering and a Minor in Computer Science.
+          </div>
+          <div class="g5">Hobbies</div>
+          <div class="g6">
+            I enjoy listening to music and watching many different movies. <br>
+            I like to watch vidoes on YouTube and do small, feasible DIY projects. <br>
+            I also like to draw & paint. <br>
+          </div>
+          <div class="g7">Ambitions</div>
+          <div class="g8">
+            There are a lot of things that I wish to do. Among them is becoming a successful <b><i>entrepreneur</i></b> . <br>
+            In these recent years, I have developed the desire of having my own tech company. <br>
+          </div>
+        </div>
+        <img src="B11.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="projects">
+      <div class="p1">
+        <div class="words">
+          <h1><a href="#">ZAGREUS</a></h1>
+          <p><span>In this project, I learnt Android app development.</span></p>
+        </div>
+        <img src="android.png" alt="">
+      </div>
+
+      <div class="p2">
+        <div class="words">
+          <h1><a href="#">STYX</a></h1>
+          <p><span>I mastered HTML, CSS, Bootstrap while working on this project.</span></p>
+        </div>
+        <img src="computer.png" alt="">
+      </div>
+
+      <div class="p3">
+        <div class="words">
+          <h1><a href="#">HADES</a></h1>
+          <p><span>This project demonstrates my skills in using Matlab and ROS.</span></p>
+        </div>
+        <img src="rocket.png" alt="">
+      </div>
+
+      <div class="p4">
+        <div class="words">
+          <h1><a href="#">GAIA</a></h1>
+          <p><span>Open this project to view my interests in open source development.</span></p>
+        </div>
+        <img src="boat.png" alt="">
+      </div>
+    </div>
+
+    <div class="contact">
+      <p><b>Email :</b> shriishwaryaasv@gmail.com</p>
+    </div>
 
   </body>
-<!-- This is the end of the body -->
-
 </html>
