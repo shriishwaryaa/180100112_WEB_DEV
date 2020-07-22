@@ -1,22 +1,18 @@
 
 
 function goNav() {
-  alert("Heya");
-  window.open("https://www.google.com", "_self");
+  window.open("https://shriishwaryaa.github.io/180100112_WEB_DEV/#navBar", "_self");
 }
 
 function openc1() {
-  alert("Heya");
-  window.open("https://www.google.com", "_self");
+  window.open("https://github.com/shriishwaryaa/180100112_WEB_DEV/blob/master/Shri%20Ishwaryaa%20S%20V%20Android.pdf", "_self");
 }
 
 function openc2() {
-  alert("Heya");
-  window.open("https://www.google.com", "_self");
+  window.open("https://courses.edx.org/certificates/0c1e671755bf4665afe6b7bf277ce8d8", "_self");
 }
 
 function copyPhone() {
-  alert("Hello");
   var txt = "+91 76390 03967";
   var number = document.createElement("input");
   number.style.display = 'none';
@@ -30,7 +26,6 @@ function copyPhone() {
 }
 
 function copyEmail() {
-  alert("Hello");
   var txt = "ishwaryaa555@gmail.com";
   var number = document.createElement("input");
   number.style.display = 'none';
@@ -44,8 +39,7 @@ function copyEmail() {
 }
 
 function openLinkedIn() {
-  alert("Heya");
-  window.open("https://www.google.com");
+  window.open("https://www.linkedin.com/shriishwaryaasv");
 }
 
 function scrollToTop() {
