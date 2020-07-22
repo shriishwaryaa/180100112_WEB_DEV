@@ -71,7 +71,6 @@ body {
 }
 
 #navBar {
-  display: inline-block;
   list-style-type: none;
   width: 100vw;
   margin: 10px 0;
@@ -287,7 +286,7 @@ footer button:hover {
   .welcomeText {width: 100vw;}
   #name {font-size: 7vw; margin-top: 55vh;}
   #intro {font-size: 5vw;}
-  #navBar {font-size: 2.5vw; padding: 0;}
+  #navBar {font-size: 2.5vw; padding: 0; display: inline-block;}
   #navBar li {padding: 0 1.5px; text-align: center;}
   .content {font-size: 15px;}
   .column2, .column3 {flex: 100%; max-width: 100%;}
