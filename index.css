@@ -295,8 +295,10 @@ footer button:hover {
   .column1 {width: 0;}
   .column3 {position: relative; top: 0; left: 0; height: auto;}
   .column3 p {padding-top: 0;}
-  #about {padding-top: 20px;
-  .column3 img {margin-bottom: 60px;}
+  #about {padding-top: 20px;}
+  .column3:nth-child(2) {display: none;}
+  .column3:nth-child(4) {display: none;}
+  .column3 img {margin-bottom: 20px;}
   #feedback {margin: 10px 2vw;}
   #feedback p {font-size: 4.7vw;}
   label {font-size: 15px;}
