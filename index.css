@@ -281,7 +281,7 @@ footer button:hover {
   color: white;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 474px) {
   .welcomeText {width: 100vw;}
   #name {font-size: 6vw;}
   #intro {font-size: 5vw;}
