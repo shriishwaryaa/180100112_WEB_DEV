@@ -285,12 +285,12 @@ footer button:hover {
   .welcomeText {width: 100vw;}
   #name {font-size: 6vw;}
   #intro {font-size: 5vw;}
-  .navBar {font-size: 25px;}
+  #navBar {font-size: 25px;}
   .content {font-size: 15px;}
   .column2, .column3 {flex: 100%;}
   .column1 {width: 0;}
   #feedback {margin: 0 2vw;}
-  .footer button {width: 60px; height: 60px;}
+  footer button {width: 60px; height: 60px;}
 
 
 }
