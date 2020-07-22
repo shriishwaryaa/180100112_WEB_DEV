@@ -291,7 +291,7 @@ footer button:hover {
   .content {font-size: 15px;}
   .column2, .column3 {flex: 100%; max-width: 100%;}
   .column2 img {width: 85vw;}
-  .headings {font-size: 25px;}
+  .headings {font-size: 23px;}
   .column1 {width: 0;}
   .column3 {position: relative; top: 0; left: 0; height: auto;}
   .column3 p {padding-top: 0;}
