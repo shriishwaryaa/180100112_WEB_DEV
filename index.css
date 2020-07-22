@@ -286,7 +286,8 @@ footer button:hover {
   .welcomeText {width: 100vw;}
   #name {font-size: 7vw; margin-top: 55vh;}
   #intro {font-size: 5vw;}
-  #navBar {font-size: 2.5vw; padding: 5px;}
+  #navBar {font-size: 2.5vw; padding: 5px; height: 50px;}
+  #navBar li a {padding: 5px;}
   .content {font-size: 15px;}
   .column2, .column3 {flex: 100%; max-width: 100%;}
   .column2 img {width: 85vw;}
