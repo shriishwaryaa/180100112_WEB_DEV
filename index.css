@@ -292,6 +292,7 @@ footer button:hover {
   .column2 img {width: 85vw;}
   .headings {font-size: 25px;}
   .column1 {width: 0;}
+  .column3 {position: relative; top: 0; left: 0;}
   #feedback {margin: 0 2vw;}
   #feedback p {font-size: 20px;}
   label {font-size: 15px;}
