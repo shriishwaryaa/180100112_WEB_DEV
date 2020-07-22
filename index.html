@@ -3,99 +3,204 @@
   <head>
 
     <meta charset="utf-8">
-    <title>About Shri Ishwaryaa S V</title>
+    <title>Shri Ishwaryaa S V</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script type="application/javascript" src="index.js"></script>
 
   </head>
 
   <body>
 
+    <script>
+      function goToNav() {
+        alert("Heya");
+        window.open("https://www.google.com", "_self");
+      }
+    </script>
+
     <div class="container">
-      <img src="BackgroundPic.jpg" alt="" style="width:100%; height:100%; background-color: rgb(50,50,50);">
-      <div class="centerText">WELCOME</div>
+      <img src="B1.jpg" alt="" style="width:100vw; height:100vh; border-radius:10px; border:3px solid black;">
+      <div class="welcomeText">
+        <p id="name">SHRI ISHWARYAA S V</p>
+        <p id="intro">ROBOTICS AND AI ENTHUSIAST</p>
+        <button type="button" id="downButton" onclick="goToNav()"><i class="fa fa-angle-down" style="font-size:24px"></i></button>
+      </div>
     </div>
 
-    <ul class="navBar">
-      <li><a href="#">About</a></li>
-      <li><a href="#">Skills</a></li>
-      <li><a href="#">Projects</a></li>
-      <li><a href="#">Contact</a></li>
+    <ul id="navBar">
+      <li><a href="#about">About</a></li>
+      <li><a href="#t1">Projects</a></li>
+      <li><a href="#feedback">Feedback</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
 
-    <div class="row">
+    <div id="row">
       <div class="column1">
+
+      </div>
+
+      <div class="column2">
+
+        <div id="about">
+          <p>
+            <i class="fa fa-chevron-right" style="font-size:24px"></i>
+            <span class="headings">ME</span>
+            <i class="fa fa-chevron-left" style="font-size:24px"></i>
+          </p>
+          <p class="content">
+            Hey! Welcome to my webpage. Do give it a read and let me know what you think through the feedback section below.<br><br>
+            I am a UG third year student at the Indian Institue of Technology, Mumbai. I am pursuing a Mechanical Engineering major. And also, a minor in Computer Science yay!<br><br>
+            My interests lie in the intersection of Robotics and Artificial Intelligence. I've always been fascinated by robots. My interest in computer science developed
+            while doing a project for the 12th standard board examination. My teammates and I worked on building a timetable generator based on number of subjects,
+            number of hours available, and priorities etc. It was fun and sparked my interests. <br><br>
+            I like to do a lot things - draw, paint, watch series and movies, and work on small DIY projects.
+          </p>
+        </div>
+
+
+        <div id="t1">
+          <p>
+            <i class="fa fa-chevron-right" style="font-size:24px"></i>
+            <span class="headings">INDUS lab</span>
+            <i class="fa fa-chevron-left" style="font-size:24px"></i>
+          </p>
+          <img src="manipulator.jpg" alt="">
+          <p class="content">
+            I work under Prof. Vivek Sangwan in the Intelligent Dynamical Ubiquitous Systems Lab
+            which is part of the Mechanical Engineering department in IITB.
+            I joined the lab after the lockdown was imposed and I have learnt a lot in such a short period of time! <br><br>
+            I started out with manipulator dynamics and the Euler-Lagrange theorem.
+            Then I simulated motions of links of a manipulator when given the torques exerted on them.
+            Now, I have completed studying about manipulator kinematics, both forward and inverse, dynamics and PD control.<br><br>
+            I also learnt about quadcopters through the Aerial Robotics Course by University of Pennsylvania on Coursera.
+            It covered basics about rotation matrices, dynamics, trajectory generation and controls. The course had very interesting videos
+            on swarms.
+          </p>
+        </div>
+
+        <div id="t2">
+          <p>
+            <i class="fa fa-chevron-right" style="font-size:24px"></i>
+            <span class="headings">i-Farmo</span>
+            <i class="fa fa-chevron-left" style="font-size:24px"></i>
+          </p>
+          <img src="i-Farmo.jpg" alt="">
+          <p class="content">
+            This is an Android app development project that I did as an internship during April and May.
+            It is an app to track and monitor pest traps on farms. Can't disclose anything else as of now.<br><br>
+            The app uses Firebase Authentication, Realtime-database and RoomDatabase! I built the app using Android Studio.
+            I completed an Android course through the Edufect platform in Summer 2019.<br><br>
+            If you wanna get started Android App Development, I would suggest that you should start by reading the book Head First Android Development.
+            It is great for beginners as it explains everything through ample amount of pictures.
+          </p>
+          <button type="button" id="c1" onclick="openc1()">
+            <i class="fa fa-angle-double-right" style="font-size:16px"></i>
+            VIEW MY CERTIFICATE
+            <i class="fa fa-angle-double-left" style="font-size:16px"></i>
+          </button>
+        </div>
+
+        <div id="t3">
+          <p>
+            <i class="fa fa-chevron-right" style="font-size:24px"></i>
+            <span class="headings">AI with python</span>
+            <i class="fa fa-chevron-left" style="font-size:24px"></i>
+          </p>
+          <img src="cs50.png" alt="">
+          <p class="content">
+            This is the well-known online HarvardX course "Introduction to Artificial Intelligence with Python".
+            The course was very good and anyone with basic python knowledge is ready to take it.<br><br>
+            This course had 9 quizzes with 4 questions each and 12 projects. You need to get a score of 70% or above to pass.
+            It covered topics such as propositional search, knowledge representation, bayesian networks, constraint satisfaction problems,
+            backtracking search, convolutional and recurrent neural networks, naive bayes classification, bag of words model etc.<br><br>
+            It also taught me various algorithms such as breadth-first search, depth-first search, A* search, minimax, tf-idf, Q-learning, and KNN classifier etc.
+            As part of the course, I learnt to develop games such as tic tac toe, minesweeper, nim etc.
+          </p>
+          <button type="button" id="c2" onclick="openc2()">
+            <i class="fa fa-angle-double-right" style="font-size:16px"></i>
+            VIEW MY CERTIFICATE
+            <i class="fa fa-angle-double-left" style="font-size:16px"></i>
+          </button>
+        </div>
+
+        <div id="t4">
+          <p>
+            <i class="fa fa-chevron-right" style="font-size:24px"></i>
+            <span class="headings">Conversational chatbot</span>
+            <i class="fa fa-chevron-left" style="font-size:24px"></i>
+          </p>
+          <img src="chatbot.png" alt="">
+          <p class="content">
+            Conversational chatbot was a project under the Summer of Code conducted by the Web and Coding Club, IITB. I mentored 8 students as part of this project.
+            All my mentees were taught the basics of machine learning, neural netowrks, Firebase, TensorFlow and Android app development.<br><br>
+            We built a chatbot that trained on the Cornell movie dialog corpus. The bot was based on a Seq2Seq model. Some of my mentees added an attention mechanism to
+            improve the accuracy / performance of the chatbot. We used tfLite to add our chatbot to the app.<br><br>
+            To know more about the project, click <a href="https://www.wncc-iitb.org/soc_projects/53-Ishwaryaa-chatbot.html" style="text-decoration: none; color: powderblue;">here.</a>
+          </p>
+        </div>
+
+        <div id="t5">
+          <p>
+            <i class="fa fa-chevron-right" style="font-size:24px"></i>
+            <span class="headings">Web development</span>
+            <i class="fa fa-chevron-left" style="font-size:24px"></i>
+          </p>
+          <img src="webdev.jpg" alt="">
+          <p class="content">
+            I started learning web development with the help of the Learner's space initiative. This is the 4th week of the course.
+            Building a personal landing page is the assignment for this week. We have been taught HTML, CSS, JavaScript and BootStrap so far. <br><br>
+            In the upcoming weeks we will be taught Django and database management. The grading for the course is as follows :
+            <ul class="content" style="list-style-type: none;">
+              <li>Week 1 : 10%</li>
+              <li>Week 2 : 15%</li>
+              <li>Major assignment : 35%</li>
+              <li>Week 6 : 15%</li>
+              <li>Major assignment : 25%</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="column3">
+        <p>Scroll down!</p>
         <img src="Me.jpeg" alt="">
         <img src="Me1.jpeg" alt="">
         <img src="Me2.jpeg" alt="">
       </div>
 
-      <div class="column2">
-        <h2>Hi! I'm Shri Ishwaryaa S V</h2>
-        <div class="grid-container">
-          <div class="g1">Education</div>
-          <div class="g2">
-            Currently studying at The Indian Institute of Technology, Bombay. <br>
-            Studied at Suguna PIP School, Coimbatore. <br>
-            Studied at The Chennai Public School, Thirumazhisai. <br>
-            Studied at The Lawrence School, Lovedale. <br>
-          </div>
-          <div class="g3">Degree</div>
-          <div class="g4">
-            Pursuing a Major degree in Mechanical Engineering and a Minor in Computer Science.
-          </div>
-          <div class="g5">Hobbies</div>
-          <div class="g6">
-            I enjoy listening to music and watching many different movies. <br>
-            I like to watch vidoes on YouTube and do small, feasible DIY projects. <br>
-            I also like to draw & paint. <br>
-          </div>
-          <div class="g7">Ambitions</div>
-          <div class="g8">
-            There are a lot of things that I wish to do. Among them is becoming a successful <b><i>entrepreneur</i></b> . <br>
-            In these recent years, I have developed the desire of having my own tech company. <br>
-          </div>
-        </div>
-        <img src="B11.jpg" alt="">
-      </div>
     </div>
 
-    <div class="projects">
-      <div class="p1">
-        <div class="words">
-          <h1><a href="#">ZAGREUS</a></h1>
-          <p><span>In this project, I learnt Android app development.</span></p>
-        </div>
-        <img src="android.png" alt="">
-      </div>
+    <div id="feedback">
+      <p>
+        <i class="fa fa-chevron-right" style="font-size:24px"></i>
+        <span class="headings">YOUR MESSAGE TO ME</span>
+        <i class="fa fa-chevron-left" style="font-size:24px"></i>
+      </p>
 
-      <div class="p2">
-        <div class="words">
-          <h1><a href="#">STYX</a></h1>
-          <p><span>I mastered HTML, CSS, Bootstrap while working on this project.</span></p>
-        </div>
-        <img src="computer.png" alt="">
-      </div>
+      <form
+        action="https://formspree.io/xjvajkry"
+        method="POST"
+        >
 
-      <div class="p3">
-        <div class="words">
-          <h1><a href="#">HADES</a></h1>
-          <p><span>This project demonstrates my skills in using Matlab and ROS.</span></p>
-        </div>
-        <img src="rocket.png" alt="">
-      </div>
+        <label for="replyto">YOUR EMAIL ID :</label><br>
+        <input type="text" name="replyto"><br><br>
+        <label for="message">YOUR MESSAGE TO ME :</label><br>
+        <textarea name="message"></textarea><br>
 
-      <div class="p4">
-        <div class="words">
-          <h1><a href="#">GAIA</a></h1>
-          <p><span>Open this project to view my interests in open source development.</span></p>
-        </div>
-        <img src="boat.png" alt="">
-      </div>
+        <button type="submit" id="send">SEND</button>
+      </form>
     </div>
 
-    <div class="contact">
-      <p><b>Email :</b> shriishwaryaasv@gmail.com</p>
-    </div>
+    <footer id="contact">
+      <button type="button" id="phone" onclick="copyPhone()"><i class="fa fa-phone" style="font-size:24px"></i></button>
+      <button type="button" id="email" onclick="copyEmail()"><i class="fa fa-envelope" style="font-size:24px"></i></button>
+      <button type="button" id="linkedIn" onclick="openLinkedIn()"><i class="fa fa-linkedin" style="font-size:24px"></i></button>
+    </footer>
 
   </body>
 </html>
