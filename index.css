@@ -296,6 +296,8 @@ footer button:hover {
   .column3 {position: relative; top: 0; left: 0; height: auto;}
   .column3 p {padding-top: 0;}
   .column3 img {margin-bottom: 60px;}
+  .column3:last-child {display: none;}
+  .column3:nth-child(2) {display: none;}
   #feedback {margin: 0 2vw;}
   #feedback p {font-size: 5vw;}
   label {font-size: 15px;}
