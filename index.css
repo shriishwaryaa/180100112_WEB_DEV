@@ -71,6 +71,7 @@ body {
 }
 
 #navBar {
+  display: inline-block;
   list-style-type: none;
   width: 100vw;
   margin: 10px 0;
@@ -310,5 +311,5 @@ footer button:hover {
 
 @media screen and (max-width: 400px) {
   #navBar {font-size: 2vw; padding: 0;}
-  #navBar li a {padding-top: 25px; padding-left: 1px; padding-right: 1px;}
+  #navBar li a {padding-top: 25px; padding-left: 1.2px; padding-right: 1.2px;}
 }
