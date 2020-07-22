@@ -307,3 +307,7 @@ footer button:hover {
   #send {width: 100px; height: 50px; font-size:15px;}
 
 }
+
+@media screen and (max-width: 450px) {
+  #navBar {font-size: 2.2vw; padding: 0;}
+}
