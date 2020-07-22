@@ -15,7 +15,7 @@ body {
 
 .container {
   position: relative;
-  height: 80vh;
+  height: 100vh;
   width: 100vw;
   z-index: -1;
 }
@@ -23,7 +23,7 @@ body {
 .welcomeText {
   background-color: rgba(0,0,0,0.4);
   width: 30vw;
-  height: 100vh;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -282,10 +282,11 @@ footer button:hover {
 }
 
 @media screen and (max-width: 474px) {
+  .container {height: 80vh;}
   .welcomeText {width: 100vw;}
   #name {font-size: 7vw;}
   #intro {font-size: 5vw;}
-  #navBar {font-size: 30px;}
+  #navBar {font-size: 35px;}
   .content {font-size: 15px;}
   .column2, .column3 {flex: 100%; max-width: 100%;}
   .column1 {width: 0;}
