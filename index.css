@@ -286,8 +286,8 @@ footer button:hover {
   .welcomeText {width: 100vw;}
   #name {font-size: 7vw; margin-top: 55vh;}
   #intro {font-size: 5vw;}
-  #navBar {font-size: 2.5vw; padding: 5px; height: 50px;}
-  #navBar li a {padding: 5px;}
+  #navBar {font-size: 2.5vw; padding: 0;}
+  #navBar li {width: 25vw; text-align: center;}
   .content {font-size: 15px;}
   .column2, .column3 {flex: 100%; max-width: 100%;}
   .column2 img {width: 85vw;}
@@ -295,11 +295,12 @@ footer button:hover {
   .column1 {width: 0;}
   .column3 {position: relative; top: 0; left: 0; height: auto;}
   .column3 p {padding-top: 0;}
+  #about {padding-top: 20px;
   .column3 img {margin-bottom: 60px;}
   .column3:last-child {display: none;}
   .column3:nth-child(2) {display: none;}
   #feedback {margin: 0 2vw;}
-  #feedback p {font-size: 5vw;}
+  #feedback p {font-size: 4.7vw;}
   label {font-size: 15px;}
   input {height: 70px; font-size: 25px;}
   textarea {height: 250px; font-size: 25px;}
