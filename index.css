@@ -310,4 +310,5 @@ footer button:hover {
 
 @media screen and (max-width: 450px) {
   #navBar {font-size: 2vw; padding: 0;}
+  #navBar li a {padding-top: 25px; padding-left: 1.5px; padding-right:1.5px;}
 }
